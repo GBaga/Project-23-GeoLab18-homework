@@ -32,7 +32,10 @@ form.addEventListener("submit", (event) => {
   const deleteButton = divCardProfile.querySelector(".btn-delete");
 
   deleteButton.addEventListener("click", () => {
-    divCardProfile.remove();
+    const isConfirmed = confirm("Are you sure to delete Card?");
+    if (isConfirmed) {
+      divCardProfile.remove();
+    }
   });
 
   const editButton = divCardProfile.querySelector(".btn-edit");
