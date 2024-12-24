@@ -1,0 +1,153 @@
+* {
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+  color: #ff81d0;
+  background-color: #898c8b;
+}
+
+h1 {
+  color: #400036;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  border-radius: 32px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin: auto;
+  background-color: #105057;
+}
+
+.card label,
+.card legend,
+.card fieldset,
+.card-header,
+.card-header h3,
+.card-header p,
+dialog label {
+  background-color: #105057;
+}
+
+form {
+  padding: 10px;
+  background-color: #105057;
+}
+
+fieldset {
+  height: 100%;
+  border: 1px solid #919151;
+  background-color: #105057;
+}
+
+legend {
+  font-size: 24px;
+
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #400036;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #400036;
+  cursor: pointer;
+  float: right;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #fff;
+
+  &:hover {
+    background-color: rgba(64, 0, 54, 0.5);
+    border: 1px solid #ff81d0;
+    color: #919151;
+  }
+}
+
+.profile-card {
+  width: 300px;
+  border: 2px solid #919151;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-card .profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-card .user-info {
+  font-size: 16px;
+  color: #400036;
+}
+
+.profile-card .user-info p {
+  margin: 5px 0;
+}
+
+.newCards {
+  background-color: #919151;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.generated-card {
+  width: 200px;
+  height: 320px;
+  border: 1px solid #919151;
+  margin: 20px;
+  background-color: #105057;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: 10px auto;
+  display: block;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #105057;
+
+  h3,
+  h4,
+  h4 * {
+    background-color: #105057;
+    /* text-align: center; */
+  }
+}
